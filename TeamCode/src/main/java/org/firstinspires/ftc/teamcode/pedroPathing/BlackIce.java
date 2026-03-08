@@ -1,5 +1,6 @@
 package org.firstinspires.ftc.teamcode.pedroPathing;
 
+import static com.pedropathing.math.MathFunctions.quadraticFit;
 import static org.firstinspires.ftc.teamcode.pedroPathing.BlackIce.changes;
 import static org.firstinspires.ftc.teamcode.pedroPathing.BlackIce.drawCurrent;
 import static org.firstinspires.ftc.teamcode.pedroPathing.BlackIce.drawCurrentAndHistory;
@@ -21,7 +22,6 @@ import com.pedropathing.math.*;
 import com.pedropathing.paths.*;
 import com.pedropathing.telemetry.SelectableOpMode;
 import com.pedropathing.util.*;
-import static org.firstinspires.ftc.teamcode.pedroPathing.MathFunc.quadraticFit;
 
 import android.annotation.SuppressLint;
 
